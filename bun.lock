@@ -12,7 +12,7 @@
         "next": "16.1.6",
         "react": "19.2.3",
         "react-dom": "19.2.3",
-        "seishiro": "^0.1.6-untest",
+        "seishiro": "0.1.85-dev",
       },
       "devDependencies": {
         "@biomejs/biome": "2.2.0",
@@ -254,7 +254,7 @@
 
     "scheduler": ["scheduler@0.27.0", "", {}, "sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q=="],
 
-    "seishiro": ["seishiro@0.1.6-untest", "", {}, "sha512-STxIuUdxoVVeMsnRB4VF5qdB6Z9FhWLd7LOSBzXI1caWrN5txks/PcG9KNZo/nyCE3IzJ5EqW7ecuG+U2zIEHQ=="],
+    "seishiro": ["seishiro@0.1.85-dev", "", {}, "sha512-MU0wBdsCjhP5dyZhDhzm5sNIo90D8SBQ66HYSjmOsIqBkXNoeMJ5HQI9KOXsvW+Ojqh7L2fJX8DqyFrUrxaX7Q=="],
 
     "semver": ["semver@7.7.4", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA=="],
 

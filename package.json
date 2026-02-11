@@ -17,7 +17,7 @@
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "seishiro": "^0.1.6-untest"
+    "seishiro": "0.1.85-dev"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",

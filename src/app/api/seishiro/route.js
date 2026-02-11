@@ -39,7 +39,6 @@ export async function POST(req) {
       type: String(bodydata?.type || ""),
       data: (bodydata?.data || {})
     })
-
     // --- [ Redirect ] ---
     if(requestdata.redirect) {
       return NextResponse.redirect(new URL(requestdata.redirect, req.url))
@@ -58,7 +57,14 @@ export async function POST(req) {
     }
     // Remove Cookie
     for(const cookie_key of requestdata.rm_cookie) {
-      responses.cookies.delete(cookie_key)
+      console.log("Remove key:", cookie_key)
+      if(cookie_key.key) {
+        // Old Version
+        responses.cookies.delete(cookie_key.key)
+      } else {
+        // New Version
+        responses.cookies.delete(cookie_key)
+      }
     }
     return responses
   } catch(e) {
