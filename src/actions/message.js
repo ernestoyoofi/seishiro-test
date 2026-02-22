@@ -3,9 +3,11 @@ import { MessageBuilder } from "seishiro"
 // --- English (EN) ---
 const msg_en = new MessageBuilder("en")
 // Default Message
-msg_en.set("no-response-sending", "Server not response!")
-msg_en.set("no-registry", "Registry not found!")
-msg_en.set("internal-server-error", "Internal server error!")
+msg_en.set("no-response-sending", "Server not response!");
+msg_en.set("no-registry", "Registry not found!");
+msg_en.set("internal-server-error", "Internal server error!");
+msg_en.set("client-version-required", "Client version is required!");
+msg_en.set("need-upgrade-client", "Need upgrade client!, now need version {{now}}");
 // Costum Message
 msg_en.set("you-have-login-rightnow", "You have login right now!")
 msg_en.set("you-need-login-now", "You need login right now!")
@@ -22,7 +24,7 @@ msg_id.set("internal-server-error", "Internal server bermasalah!")
 msg_id.set("you-have-login-rightnow", "Kamu sudah masuk sekarang!")
 msg_id.set("you-need-login-now", "Kamu perlu login sekarang!")
 // Testing Avaliable Language
-msg_en.set("only-support-test2", "Variable ini hanya dapat memunculkan Bahasa Indonesia")
+msg_id.set("only-support-test2", "Variable ini hanya dapat memunculkan Bahasa Indonesia")
 
 // --- Japanese (JP) ---
 const msg_jp = new MessageBuilder("jp")

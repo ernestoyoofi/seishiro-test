@@ -1,6 +1,6 @@
 export default async function ViewSystem({ system, type, middleware, data = {} } = {}) {
   // Use Middleware
-  if(!middleware?.response.data?.isLogin && type === "system:info-middleware") {
+  if(!middleware?.data?.isLogin && type === "system:info-middleware") {
     return {
       error: "info:you-need-login-now"
     }
@@ -15,7 +15,7 @@ export default async function ViewSystem({ system, type, middleware, data = {} }
       type_call: type,
       middleware: middleware,
       body: data,
-      say_hi: middleware?.response?.data?.username || undefined
+      say_hi: middleware?.data?.username || undefined
     }
   }
 }
